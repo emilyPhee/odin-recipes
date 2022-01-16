@@ -8,4 +8,4 @@ insert images.
 The recipes were referenced from https://www.allrecipes.com/
 
 
-[See my recepy page page here](https://emilyphee.github.io/odin-recipes/)
+[See my recipe page page here! :)](https://emilyphee.github.io/odin-recipes/)
