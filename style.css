@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+* {
+  /* font-family: 'Roboto', serif; */
+  font-family: 'Josefin Sans', sans-serif;
+  background-color: rgb(252, 252, 252);
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  margin-top: 45px;
+}
+
+.recipes-container {
+  width: 300px;
+  height: 300px;
+  margin-right: 40px;
+}
+
+#odin-text {
+  font-family: 'Josefin Sans', sans-serif;
+  color: rgb(210, 182, 145);
+}
+
+#recipes-text {
+  font-family: 'Pacifico', cursive;
+  color: rgb(75, 75, 75);
+}
+
+#heading {
+  padding: 0px;
+
+  padding-bottom: 30px;
+}
+
+.receipe-list {
+  list-style-type: none;
+}
+
+.receipe-list > li {
+  /* margin-bottom: 40px; */
+  height: 70px;
+  font-size: 23px;
+  color: rgb(75, 75, 75);
+}
+
+.img-container img {
+  width: 400px;
+  height: auto;
+  border-radius: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:focus {
+  color: blue;
+}
+a:hover {
+  font-family: 'Pacifico', cursive;
+  color: rgb(75, 75, 75);
+  text-decoration-line: underline;
+  text-decoration-color: rgb(210, 182, 145);
+}
+
+a:visited {
+  color: rgb(55, 55, 55);
+}
